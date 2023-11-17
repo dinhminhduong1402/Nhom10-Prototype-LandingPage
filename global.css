@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --body-xl-600: "Public Sans";
+  --font-inter: "Inter";
+
+  /* font sizes */
+  --body-small-600-size: 14px;
+  --label-02-size: 16px;
+  --font-size-2xs: 11px;
+  --body-large-600-size: 18px;
+  --heading-01-size: 32px;
+  --body-xl-600-size: 20px;
+  --body-xxl-400-size: 24px;
+  --display-03-size: 48px;
+  --heading-02-size: 28px;
+  --body-tiny-400-size: 12px;
+  --display-04-size: 40px;
+
+  /* Colors */
+  --gray-00: #fff;
+  --gray-900: #191c1f;
+  --color-gray-100: rgba(0, 0, 0, 0.2);
+  --gray-300: #adb7bc;
+  --gray-700: #475156;
+  --gray-800: #303639;
+  --gray-400: #929fa5;
+  --warning-400: #efd33d;
+  --warning-500: #ebc80c;
+  --gray-500: #77878f;
+  --secondary-600: #2484c2;
+  --secondary-700: #1b6392;
+  --primary-500: #fa8232;
+  --gray-50: #f2f4f5;
+  --gray-100: #e4e7e9;
+  --primary-100: #ffe7d6;
+  --secondary-500: #2da5f3;
+  --primary-200: #ffcead;
+  --warning-200: #f7e99e;
+  --success-500: #2db224;
+  --danger-500: #ee5858;
+  --gray-600: #5f6c72;
+  --gray-200: #c9cfd2;
+  --danger-600: #be4646;
+  --warning-300: #f3de6d;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-lg: 18px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-13xl: 32px;
+  --gap-29xl: 48px;
+  --gap-21xl: 40px;
+  --gap-7xs: 6px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-281xl: 300px;
+  --padding-53xl: 72px;
+  --padding-7xs: 6px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-13xl: 32px;
+  --padding-22xl: 41px;
+  --padding-21xl: 40px;
+  --padding-8xs: 5px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-sm: 14px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+  --br-10xs: 3px;
+  --br-9xs: 4px;
+  --br-981xl: 1000px;
+  --br-81xl: 100px;
+  --br-7xs: 6px;
+}
+
+/* input */
+input {
+  border: none;
+  outline: none;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* button */
+button {
+  outline: none;
+  border: none;
+  transition: transform 0.5s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+
+/* img animation */
+img {
+  transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.blog, .blog1,
+.product28,
+div.product10 > div.row > div[class^="product"],
+div.product > div[class^="product"] {
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.blog:hover, .blog1:hover,
+.product28:hover,
+div.product10 > div.row > div[class^="product"]:hover,
+div.product > [class^="product"]:hover {
+  transform: scale(1.2);
+  z-index: 100;
+  box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.4);
+}
+
+.blog, .blog1 {
+  overflow: hidden;
+}
+.blog1 img:hover,
+.blog img:hover {
+    transform: none;
+}
